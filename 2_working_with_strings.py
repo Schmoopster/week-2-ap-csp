@@ -45,11 +45,13 @@ chicago_mayor = "Johnson"
 print(chicago_mayor[0])
 print(chicago_mayor[-1])
 print(chicago_mayor[-3])
-
+print(chicago_mayor[ 4 : 7 ]) #this is how to slice the "son" out of "Johnson"
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !
-
+print(chicago_mayor[ 0 : -3 ])
+print(chicago_mayor[1:5])
+#when we get one character/letter, its called string indexing when we get a chunks of letters from a string its, its called string slicing
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
 
