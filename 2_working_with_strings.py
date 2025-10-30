@@ -58,6 +58,7 @@ print(phrase3[5:9])
 print(phrase3[-1])
 print(phrase3.upper)
 cut = phrase3[0:5]
+cut2 = phrase3[5:9]
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
 
